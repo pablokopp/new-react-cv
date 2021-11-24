@@ -9,8 +9,8 @@
     {
         "swhere": "FREECODECAMP",
         "swhen": "EN CURSO",
-        "show": "RESPONSIVE WEB DESIGN / FRONT END DEV LIBRARIES",
-        "sdesc": "Certificaciones de freeCodeCamp en diseño web responsive y librerias de desarrollo Front End."
+        "show": "FRONTEND LIBRARIES",
+        "sdesc": "Certificaciones de freeCodeCamp en librerias de desarrollo Front End."
     },
     {
         "swhere": "POLOTIC MISIONES",
@@ -19,7 +19,7 @@
         "sdesc": "Estudio de Python y Javascript para el desarrollo de apps web."
     },
     {
-        "swhere": "UTN FRBA RESISTENCIA",
+        "swhere": "UTN RESISTENCIA",
         "swhen": "2020",
         "show": "DISEÑO WEB RESPONSIVE",
         "sdesc": "Certificación en la UTN en Diseño web responsive utilizando herramientas de HTML5, CSS3 y Javascript"
