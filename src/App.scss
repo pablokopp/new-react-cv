@@ -233,7 +233,7 @@ body {
   padding: 1.5rem;
   margin-top: 2rem;
 
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
     " a1  i  a3 "
@@ -255,6 +255,7 @@ body {
     text-decoration: none;
     color: $bggray;
     align-self: center;
+    font-size: 1.4rem;
   }
   .cuteLink:hover {
     color: $orange;
@@ -295,6 +296,12 @@ body {
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "i" "h1" "h2";
     padding: 0;
+    .img--header {
+      z-index: -2;
+    }
+    .img--headergif {
+      z-index: 1;
+    }
     .img--header,
     .img--headergif {
       margin: 0;
@@ -401,6 +408,12 @@ body {
     .cuteLink--linkedin,
     .cuteLink--whatsapp {
       justify-self: flex-end;
+    }
+    .img--footergif {
+      z-index: -1;
+    }
+    .img--footergif {
+      z-index: 1;
     }
   }
 }
