@@ -397,23 +397,32 @@ body {
 
   .footer {
     grid-template-columns: auto auto;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas:
-      "i a1"
-      "i a2"
-      "i a3"
-      "i a4";
+      "i i"
+      "a1 a1"
+      "a2 a2"
+      "a3 a3"
+      "a4 a4";
     .cuteLink--github,
     .cuteLink--gmail,
     .cuteLink--linkedin,
     .cuteLink--whatsapp {
-      justify-self: flex-end;
+      justify-self: center;
     }
     .img--footergif {
       z-index: -1;
     }
     .img--footergif {
       z-index: 1;
+    }
+  }
+  .footer:hover {
+    .img--footer,
+    .img--footergif {
+      height: 9rem;
+      width: 9rem;
+      border-radius: 0.5rem;
     }
   }
 }
