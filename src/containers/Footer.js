@@ -3,7 +3,7 @@ import React from "react";
 import CuteLink from "../components/CuteLink";
 import Image from "../components/Image";
 import imgStill from "../data/image/footerstill.png";
-import imgGif from "../data/image/footergif.gif";
+import imgGif from "../data/image/footergif2.gif";
 const Footer = () => {
   return (
     <div className="footer">
