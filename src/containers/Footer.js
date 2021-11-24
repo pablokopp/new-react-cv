@@ -14,7 +14,7 @@ const Footer = () => {
       />
       <CuteLink
         cuteHref="https://www.linkedin.com/in/pablo-koppargentina/"
-        cuteText="👨‍💻 LinkdIn"
+        cuteText="👨‍💻 LinkedIn"
         cnCute="linkedin"
       />
       <Image cnImg="footer" imgSrc={imgStill} />
