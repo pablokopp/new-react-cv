@@ -1,0 +1,20 @@
+[
+    {
+        "jwhere":"FREELANCE",
+        "jwhen": "2020-ACTUAL",
+        "jhow": "DESARROLLO WEB FULL STACK / UI DESIGN",
+        "jdesc": "Realización de maquetado web y proyectos personales con enfoque en el desarrollo usando las herramientas de Javascript, HTML, CSS y React."
+    },
+    {
+        "jwhere":"DISNEY CRUISE LINE",
+        "jwhen": "2019-2021",
+        "jhow": "CRUISE STAFF HOST",
+        "jdesc": "Animador y coordinador de actividades recreativas en los cruceros Disney Fantasy y Disney Dream, navegando por el mar Caribe, hablando totalmente en inglés."
+    },
+    {
+        "jwhere":"ACCENTURE",
+        "jwhen": "2011-2015",
+        "jhow": "HELP DESK AGENT",
+        "jdesc": "Troubleshooting y derivación de problemas de apps específicas de diversos proyectos y problemas de configuración generales."
+    }
+]

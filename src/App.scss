@@ -1,0 +1,217 @@
+/* COLORS */
+$blue: #6874e8;
+$bgblack: #2e1760;
+$ntext: #171738;
+$bggray: #f4f4f9;
+$orange: #f06449;
+
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(244, 244, 244, 1) 79%,
+    rgba(217, 217, 217, 1) 100%
+  );
+  font-size: 20px;
+  color: $ntext;
+}
+.title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.paragraph {
+  font-size: 1rem;
+  margin: 0;
+}
+.header {
+  background-color: $bgblack;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto 200px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    ". . h1 h1  i"
+    ". . h2 h2  i";
+  justify-items: center;
+  align-items: center;
+  padding: 1.5rem;
+  .title--header {
+    color: $orange;
+  }
+  .header--1 {
+    grid-area: h1;
+    font-size: 1.7rem;
+  }
+  .header--2 {
+    grid-area: h2;
+  }
+  .img--header {
+    margin-left: 2rem;
+    height: 9rem;
+    width: 9rem;
+    grid-area: i;
+    border-radius: 50%;
+    justify-self: flex-end;
+    align-self: center;
+    border: solid $orange 0.3rem;
+  }
+}
+.whoAmI {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem auto 0;
+  border-top: $bgblack 0.5rem solid;
+  // border-right: $bgblack 0.5rem solid;
+
+  padding: 0 2rem 1rem;
+  .title--whoAmI {
+    color: $bgblack;
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
+  .paragraph--whoAmI {
+    text-align: left;
+  }
+}
+.workStudy {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto 0;
+  padding: 0 2rem 1rem;
+  border-left: $blue 0.5rem solid;
+  border-right: $orange 0.5rem solid;
+
+  .work {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .title--work {
+      color: $blue;
+      justify-self: flex-start;
+      align-self: flex-start;
+    }
+    .work--exp {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      transition: all 0.2s ease-in-out;
+      .title--workWhere {
+        margin: 0 1rem 0 0;
+        color: $blue;
+        font-weight: 400;
+      }
+      .title--workHow {
+        margin: 0;
+        text-align: left;
+        flex-basis: 100%;
+        font-weight: 400;
+        color: $blue;
+      }
+      .paragraph--workDesc {
+        text-align: left;
+        width: 50%;
+      }
+    }
+    .work--exp:hover {
+      transform: translateY(0.5rem) translateX(3.5rem) scale(1.1);
+    }
+  }
+  .study {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    .title--study {
+      color: $orange;
+      justify-self: flex-end;
+      align-self: flex-end;
+    }
+    .study--exp {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      transition: all 0.2s ease-in-out;
+
+      .title--studyWhere {
+        margin: 0 1rem 0 0;
+        color: $orange;
+        font-weight: 400;
+      }
+      .title--studyHow {
+        margin: 0;
+        text-align: right;
+        flex-basis: 100%;
+        font-weight: 400;
+        color: $orange;
+      }
+      .paragraph--studyDesc {
+        text-align: right;
+        width: 50%;
+      }
+    }
+    .study--exp:hover {
+      transform: translateY(0.5rem) translateX(-3.5rem) scale(1.1);
+    }
+  }
+}
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 23, 96, 1) 79%,
+    rgb(40, 20, 87) 100%
+  );
+  display: grid;
+  padding: 1.5rem;
+  margin-top: 2rem;
+
+  grid-template-columns: repeat(3, 1fr) 20% 20% 20% repeat(3, 1fr);
+  grid-template-rows: repeat(3, 3rem);
+  grid-template-areas:
+    ". . . a1  i  a3 . . . ."
+    ". . . .  i  . . . . ."
+    ". . . a2  i  a4. . . .";
+  .img--footer {
+    height: 9rem;
+    width: 9rem;
+    grid-area: i;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+  }
+  .cuteLink {
+    text-decoration: none;
+    color: $bggray;
+  }
+  .cuteLink:hover {
+    color: $orange;
+    cursor: pointer;
+  }
+  .cuteLink--github {
+    grid-area: a1;
+  }
+  .cuteLink--linkedin {
+    grid-area: a2;
+  }
+  .cuteLink--whatsapp {
+    grid-area: a3;
+  }
+  .cuteLink--gmail {
+    grid-area: a4;
+  }
+}
