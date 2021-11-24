@@ -1,5 +1,4 @@
 import React from "react";
-// import Title from "../components/Title";
 import CuteLink from "../components/CuteLink";
 import Image from "../components/Image";
 import imgStill from "../data/image/footerstill.png";
@@ -8,7 +7,6 @@ import imgGif from "../data/image/footergif2.gif";
 const Footer = () => {
   return (
     <div className="footer">
-      {/* <Title cnTitle="footer" text="CONTACTAME" /> */}
       <CuteLink
         cuteHref="https://github.com/pablokopp"
         cuteText="💻 GitHub"
@@ -35,5 +33,4 @@ const Footer = () => {
     </div>
   );
 };
-
 export default Footer;
