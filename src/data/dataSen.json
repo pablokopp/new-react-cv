@@ -1,0 +1,27 @@
+[
+
+    {
+        "swhere": "CODERHOUSE",
+        "swhen": "2021",
+        "show": "REACT JS",
+        "sdesc": "Learning ReactJs, building components, class, hooks, use of API, communication with the backend, react router DOM."
+    },
+    {
+        "swhere": "FREECODECAMP",
+        "swhen": "IN PROGRESS",
+        "show": "FRONTEND LIBRARIES",
+        "sdesc": "FreeCodeCamp certifications in Front End development libraries."
+    },
+    {
+        "swhere": "POLOTIC MISIONES",
+        "swhen": "2021",
+        "show": "PYTHON / JAVASCRIPT WEB DEVELOPMENT",
+        "sdesc": "Study of Python and Javascript for the development of web apps."
+    },
+    {
+        "swhere": "UTN RESISTENCIA",
+        "swhen": "2020",
+        "show": " WEB RESPONSIVE DESIGN",
+        "sdesc": "Certification at the UTN in Responsive Web Design using HTML5, CSS3 and Javascript tools"
+    }
+]
