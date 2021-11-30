@@ -5,9 +5,12 @@ $ntext: #171738;
 $bggray: #f4f4f9;
 $orange: #f06449;
 
+.App {
+  text-align: center;
+  background: $bggray;
+}
 * {
   transition: all 0.3s ease-in-out;
-  text-align: center;
 }
 body {
   font-size: 16px;
@@ -25,10 +28,8 @@ body {
   background-color: $bgblack;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  grid-template-areas:
-    "h1 i h2"
-    ". l .";
+  grid-template-rows: auto;
+  grid-template-areas: "h1 i h2";
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
@@ -42,7 +43,6 @@ body {
   .header--2 {
     grid-area: h2;
   }
-
   .img--header,
   .img--headergif {
     margin: 0 2rem;
@@ -74,19 +74,6 @@ body {
   .title--header {
     letter-spacing: 0.2rem;
   }
-}
-.languageChanger {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  border-radius: 0.2em;
-  border: none;
-  background-color: transparent;
-  color: #f06449;
-  font-weight: 700;
-  font-size: 1.4rem;
-  cursor: pointer;
-  transform: translateY(-2em);
 }
 .whoAmI {
   width: 80%;
@@ -333,11 +320,7 @@ body {
       margin-bottom: 1rem;
     }
   }
-  .languageChanger {
-    transform: translateY(0);
-    font-size: 1em;
-    margin-top: 0.2em;
-  }
+
   .workStudy {
     flex-direction: column;
     width: 90%;
