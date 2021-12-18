@@ -1,5 +1,10 @@
 [
-
+    {
+        "swhere": "CODERHOUSE",
+        "swhen": "EN CURSO",
+        "show": "DESARROLLO DE APPS",
+        "sdesc": "Apps bridge con capacidad de despliegue para Android y iOS, utilizando React Native y Javascript."
+    },
     {
         "swhere": "CODERHOUSE",
         "swhen": "2021",
