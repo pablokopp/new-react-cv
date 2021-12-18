@@ -1,10 +1,11 @@
+import { Language } from "../context/Language";
 import React from "react";
-import Title from "../components/Title";
 import StudyExp from "../components/StudyExp";
+import Title from "../components/Title";
 import dataS from "../data/dataS.json";
 import dataSen from "../data/dataSen.json";
-import { useContext } from "react/cjs/react.development";
-import { Language } from "../context/Language";
+import { useContext } from "react";
+
 const Study = () => {
   const { english } = useContext(Language);
   return (
