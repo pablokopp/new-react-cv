@@ -1,5 +1,10 @@
 [
-
+    {
+        "swhere": "CODERHOUSE",
+        "swhen": "2021- TODAY",
+        "show": "MOBILE DEVELOPMENT",
+        "sdesc": "Building Android and iOS deployable bridge apps, using React Native and Javascript"
+    },
     {
         "swhere": "CODERHOUSE",
         "swhen": "2021",
