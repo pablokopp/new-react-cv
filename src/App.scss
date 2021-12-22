@@ -235,7 +235,59 @@ body {
     }
   }
 }
-
+.projects {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 3rem auto 0;
+  border-top: $bgblack 0.5rem solid;
+  padding: 0 2rem 1rem;
+  .title--projects {
+    color: $bgblack;
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
+  .paragraph--project {
+    text-align: center;
+  }
+  .projects--list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .project {
+      background-color: $blue;
+      padding: 1rem;
+      width: 250px;
+      height: 200px;
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      a {
+        text-decoration: none;
+      }
+      .title--project {
+        text-transform: uppercase;
+        color: $bggray;
+      }
+    }
+    .project:hover {
+      background-color: $orange;
+    }
+  }
+}
+.projects:hover {
+  border-top: $bgblack 0.9rem solid;
+  .title--projects {
+    transform: scale(1.1);
+    padding-left: 2rem;
+    letter-spacing: 0.1rem;
+  }
+}
 .footer {
   background: linear-gradient(
     180deg,

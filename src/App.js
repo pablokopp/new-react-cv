@@ -1,10 +1,12 @@
 import "./App.scss";
-import Header from "./containers/Header";
-import WhoAmI from "./containers/WhoAmI";
+
 import Footer from "./containers/Footer";
-import WorkStudy from "./containers/WorkStudy";
-import { LanguageProvider } from "./context/Language";
+import Header from "./containers/Header";
 import LanguageChanger from "./components/LanguageChanger";
+import { LanguageProvider } from "./context/Language";
+import Projects from "./containers/Projects";
+import WhoAmI from "./containers/WhoAmI";
+import WorkStudy from "./containers/WorkStudy";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <LanguageChanger />
       <WhoAmI />
       <WorkStudy />
+      <Projects />
       <Footer />
     </LanguageProvider>
   );

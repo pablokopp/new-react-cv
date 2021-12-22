@@ -1,0 +1,31 @@
+[
+    {
+        "name":"Federico Acquistapace Terapias",
+        "url":"https://terapias-federicoacq.vercel.app/index.html",
+        "desc":"Web for Federico Acquistapace Terapias"
+
+},
+{
+    "name":"Job Listing with Filter",
+    "url":"https://static-job-listing-silk.vercel.app/",
+    "desc":"Mini project of a job listing component where you can add some filters"
+
+},
+{
+    "name":"Firegram",
+    "url":"https://firegram-seven.vercel.app/",
+    "desc":"Image Gallery using Firebase"
+
+},
+{
+    "name":"Coderhouse Ecommerce",
+    "url":"https://proyecto-ecommerce-iota.vercel.app/",
+    "desc":"Final Project for Coderhouse's React Js Course"
+
+},
+{
+    "name":"Order Summary Component",
+    "url":"https://order-summary-component-rose.vercel.app/",
+    "desc":"Card Component Practice from FrontEndMentor"
+}
+]
