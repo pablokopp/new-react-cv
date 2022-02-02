@@ -1,5 +1,11 @@
 [
     {
+        "jwhere":"MAKING SENSE LLC",
+        "jwhen": "2022-ACTUAL",
+        "jhow": "UX DEVELOPER",
+        "jdesc": "Desarrollo UI utilizando React JS, storybook, styled-components y style system. Especializandome en desarrollo UX/UI."
+    },
+    {
         "jwhere":"FREELANCE",
         "jwhen": "2020-ACTUAL",
         "jhow": "DESARROLLO WEB FULL STACK / UI DESIGN",
