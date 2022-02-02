@@ -6,6 +6,12 @@
 
 },
 {
+    "name":"Social Media Dashboard",
+    "url":"https://challenge-mks-pablo-kopp.vercel.app/",
+    "desc":"Proyecto de un media dashboard, con modales y dark/light theme"
+
+},
+{
     "name":"Job Listing with Filter",
     "url":"https://static-job-listing-silk.vercel.app/",
     "desc":"Mini proyecto de un job listing donde se pueden aplicar distintos filtros"
