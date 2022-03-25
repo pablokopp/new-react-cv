@@ -18,6 +18,12 @@
 
 },
 {
+    "name":"Theatre Program",
+    "url":"https://ensaladailusa.vercel.app/",
+    "desc":"Theatre program for Ensalada Ilusa"
+
+},
+{
     "name":"Firegram",
     "url":"https://firegram-seven.vercel.app/",
     "desc":"Image Gallery using Firebase"
