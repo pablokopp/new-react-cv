@@ -21,6 +21,10 @@ body {
   font-size: 1.4rem;
   margin: 0;
 }
+a .paragraph{
+  text-decoration: none;
+  color: #171738 !important;
+}
 .header {
   background-color: $bgblack;
   display: grid;
@@ -107,10 +111,7 @@ body {
   }
 }
 .whoAmI:hover {
-  border-top: $bgblack 0.9rem solid;
   .title--whoAmI {
-    transform: scale(1.1);
-    padding-left: 2rem;
     letter-spacing: 0.1rem;
   }
 }
@@ -162,11 +163,7 @@ body {
     }
   }
   .work:hover {
-    border-left: $blue 0.9rem solid;
-
     .title--work {
-      transform: scale(1.1);
-      padding-left: 0.8rem;
       padding-bottom: 2rem;
       letter-spacing: 0.1rem;
     }
@@ -219,11 +216,7 @@ body {
     }
   }
   .study:hover {
-    border-right: $orange 0.9rem solid;
-
     .title--study {
-      transform: scale(1.1);
-      padding-right: 0.8rem;
       padding-bottom: 2rem;
       letter-spacing: 0.1rem;
     }
@@ -281,10 +274,7 @@ body {
   }
 }
 .projects:hover {
-  border-top: $bgblack 0.9rem solid;
   .title--projects {
-    transform: scale(1.1);
-    padding-left: 2rem;
     letter-spacing: 0.1rem;
   }
 }
@@ -432,10 +422,7 @@ body {
     }
     .work:hover {
       border-left: none;
-      border-top: $blue 0.9rem solid;
       .title--work {
-        transform: scale(1.1);
-        padding-left: 2.8rem;
         padding-bottom: 0;
         letter-spacing: 0.1rem;
       }
@@ -448,10 +435,7 @@ body {
     }
     .study:hover {
       border-right: none;
-      border-top: $orange 0.9rem solid;
       .title--study {
-        transform: scale(1.1);
-        padding-left: 2.8rem;
         padding-bottom: 0;
         letter-spacing: 0.1rem;
       }

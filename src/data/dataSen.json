@@ -1,6 +1,12 @@
 [
     {
         "swhere": "CODERHOUSE",
+        "swhen": "2023",
+        "show": "UX/UI DESIGN",
+        "sdesc": "Research and investigation arround a problem for designing a solution in the form of a MVP."
+    },
+    {
+        "swhere": "CODERHOUSE",
         "swhen": "2022",
         "show": "MOBILE DEVELOPMENT",
         "sdesc": "Building Android and iOS deployable bridge apps, using React Native and Javascript"

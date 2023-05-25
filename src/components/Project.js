@@ -7,8 +7,8 @@ const Project = ({ name, url, desc }) => {
     <div className="project">
       <a href={url} target="_blank" rel="noreferrer">
         <Title cnTitle="project" text={name} />
+        <Paragraph cnPar="project" text={desc} />
       </a>
-      <Paragraph cnPar="project" text={desc} />
     </div>
   );
 };

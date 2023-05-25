@@ -1,6 +1,12 @@
 [
     {
         "swhere": "CODERHOUSE",
+        "swhen": "2023",
+        "show": "UX/UI DESIGN",
+        "sdesc": "Research e investigación acerca de un problema para el desarrollo de una idea de app. Diseño y creación de un prototipo de app."
+    },
+    {
+        "swhere": "CODERHOUSE",
         "swhen": "2022",
         "show": "DESARROLLO DE APPS",
         "sdesc": "Apps bridge con capacidad de despliegue para Android y iOS, utilizando React Native y Javascript."
